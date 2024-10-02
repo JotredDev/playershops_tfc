@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "WSW",
+    "WWW"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass"
+    },
+    "S": {
+      "item": "minecraft:jungle_sign"
+    },
+    "W": {
+      "item": "minecraft:stripped_jungle_log"
+    }
+  },
+  "result": {
+    "count": 0,    "item": "playershops:jungle_player_shop"
+  }
+}

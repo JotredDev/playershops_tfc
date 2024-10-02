@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "WSW",
+    "WWW"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass"
+    },
+    "S": {
+      "item": "minecraft:cherry_sign"
+    },
+    "W": {
+      "item": "minecraft:stripped_cherry_log"
+    }
+  },
+  "result": {
+    "count": 0,    "item": "playershops:cherry_player_shop"
+  }
+}

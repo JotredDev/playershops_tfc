@@ -1,0 +1,26 @@
+{
+  "__comment__": "This file was created by JotredDev",
+  "replace": false,
+  "values": [
+    "playershops_tfc:wood/player_shops/acacia",
+    "playershops_tfc:wood/player_shops/ash",
+    "playershops_tfc:wood/player_shops/aspen",
+    "playershops_tfc:wood/player_shops/birch",
+    "playershops_tfc:wood/player_shops/blackwood",
+    "playershops_tfc:wood/player_shops/chestnut",
+    "playershops_tfc:wood/player_shops/douglas_fir",
+    "playershops_tfc:wood/player_shops/hickory",
+    "playershops_tfc:wood/player_shops/kapok",
+    "playershops_tfc:wood/player_shops/mangrove",
+    "playershops_tfc:wood/player_shops/maple",
+    "playershops_tfc:wood/player_shops/oak",
+    "playershops_tfc:wood/player_shops/palm",
+    "playershops_tfc:wood/player_shops/pine",
+    "playershops_tfc:wood/player_shops/rosewood",
+    "playershops_tfc:wood/player_shops/sequoia",
+    "playershops_tfc:wood/player_shops/spruce",
+    "playershops_tfc:wood/player_shops/sycamore",
+    "playershops_tfc:wood/player_shops/white_cedar",
+    "playershops_tfc:wood/player_shops/willow"
+  ]
+}

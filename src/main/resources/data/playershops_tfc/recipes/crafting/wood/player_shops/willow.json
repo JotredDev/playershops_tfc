@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "WSW",
+    "WWW"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass"
+    },
+    "S": {
+      "item": "tfc:wood/sign/willow"
+    },
+    "W": {
+      "item": "tfc:wood/stripped_wood/willow"
+    }
+  },
+  "result": {
+    "item": "playershops_tfc:wood/player_shops/willow"
+  }
+}

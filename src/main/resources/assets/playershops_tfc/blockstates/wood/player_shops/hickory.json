@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "playershops_tfc:block/wood/player_shops/hickory" },
+    "facing=east": { "model": "playershops_tfc:block/wood/player_shops/hickory", "y": 90 },
+    "facing=south": { "model": "playershops_tfc:block/wood/player_shops/hickory", "y": 180 },
+    "facing=west": { "model": "playershops_tfc:block/wood/player_shops/hickory", "y": 270 }
+  }
+}
