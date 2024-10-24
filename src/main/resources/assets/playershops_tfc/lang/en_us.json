@@ -19,6 +19,15 @@
   "block.playershops_tfc.wood.player_shops.sycamore": "Sycamore Player Shop",
   "block.playershops_tfc.wood.player_shops.white_cedar": "White Cedar Player Shop",
   "block.playershops_tfc.wood.player_shops.willow": "Willow Player Shop",
-
+  "block.playershops_tfc.wood.player_shops.baobab": "Baobab Player Shop",
+  "block.playershops_tfc.wood.player_shops.eucalyptus": "Eucalyptus Player Shop",
+  "block.playershops_tfc.wood.player_shops.mahogany": "Mahogany Player Shop",
+  "block.playershops_tfc.wood.player_shops.hevea": "Hevea Player Shop",
+  "block.playershops_tfc.wood.player_shops.tualang": "Tualang Player Shop",
+  "block.playershops_tfc.wood.player_shops.teak": "Teak Player Shop",
+  "block.playershops_tfc.wood.player_shops.cypress": "Cypress Player Shop",
+  "block.playershops_tfc.wood.player_shops.fig": "Fig Player Shop",
+  "block.playershops_tfc.wood.player_shops.ironwood": "Ironwood Player Shop",
+  "block.playershops_tfc.wood.player_shops.ipe": "Ipe Player Shop",
   "playershops_tfc.creative_tab.playershops": "Player Shops TFC"
 }

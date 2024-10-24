@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "WSW",
+    "WWW"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass"
+    },
+    "S": {
+      "item": "afc:wood/sign/ironwood"
+    },
+    "W": {
+      "item": "afc:wood/stripped_wood/ironwood"
+    }
+  },
+  "result": {
+    "item": "playershops_tfc:wood/player_shops/ironwood"
+  }
+}
