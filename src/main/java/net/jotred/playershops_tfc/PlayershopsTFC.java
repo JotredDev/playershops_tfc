@@ -2,11 +2,15 @@ package net.jotred.playershops_tfc;
 
 import com.mojang.logging.LogUtils;
 import net.jotred.playershops_tfc.common.PlayershopsTFCCreativeTabs;
+import net.jotred.playershops_tfc.common.blockentities.PlayershopsAFCBlockEntities;
 import net.jotred.playershops_tfc.common.blockentities.PlayershopsTFCBlockEntities;
+import net.jotred.playershops_tfc.common.blocks.PlayershopsAFCBlocks;
 import net.jotred.playershops_tfc.common.blocks.PlayershopsTFCBlocks;
+import net.jotred.playershops_tfc.common.items.PlayershopsAFCItems;
 import net.jotred.playershops_tfc.common.items.PlayershopsTFCItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
@@ -28,16 +32,25 @@ public class PlayershopsTFC
         bus.addListener(this::commonSetup);
         
         MinecraftForge.EVENT_BUS.register(this);
-
+        
+        
         PlayershopsTFCItems.ITEMS.register(bus);
         PlayershopsTFCBlocks.BLOCKS.register(bus);
         PlayershopsTFCBlockEntities.BLOCK_ENTITIES.register(bus);
+        
+        if (ModList.get().isLoaded("afc")) {
+            
+            PlayershopsAFCItems.ITEMS_AFC.register(bus);
+            PlayershopsAFCBlocks.BLOCKS_AFC.register(bus);
+            PlayershopsAFCBlockEntities.BLOCK_ENTITIES_AFC.register(bus);
+        }
+        
         PlayershopsTFCCreativeTabs.CREATIVE_TABS.register(bus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
         // Some common setup code
-        LOGGER.info("Playershops, now with TFC support, loading in...");
+        LOGGER.info("Playershops, now with TFC and AFC support, loading in...");
     }
 }
