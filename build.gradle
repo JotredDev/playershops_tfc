@@ -4,6 +4,7 @@ plugins {
     id 'maven-publish'
     id 'net.minecraftforge.gradle' version '[6.0,6.2)'
     id 'org.parchmentmc.librarian.forgegradle' version '1.+'
+    id("org.spongepowered.mixin") version "0.7.+"
 }
 
 version = mod_version
@@ -135,9 +136,12 @@ repositories {
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
+    annotationProcessor("org.spongepowered:mixin:${mixin_version}:processor")
+
     implementation fg.deobf("curse.maven:playershops-897765:5107977")
     implementation fg.deobf("curse.maven:patchouli-306770:4636277")
     implementation fg.deobf("curse.maven:terrafirmacraft-302973:5425324")
+    implementation fg.deobf("curse.maven:arborfirmacraft-877545:5525258")
 
     runtimeOnly (fg.deobf("mezz.jei:jei-1.20.1-forge:15.2.0.23"))
 }

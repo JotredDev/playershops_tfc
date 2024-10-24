@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "WSW",
+    "WWW"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass"
+    },
+    "S": {
+      "item": "afc:wood/sign/baobab"
+    },
+    "W": {
+      "item": "afc:wood/stripped_wood/baobab"
+    }
+  },
+  "result": {
+    "item": "playershops_tfc:wood/player_shops/baobab"
+  }
+}
