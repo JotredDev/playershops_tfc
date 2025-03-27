@@ -1,22 +1,7 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " G ",
-    "WSW",
-    "WWW"
-  ],
-  "key": {
-    "G": {
-      "tag": "forge:glass"
-    },
-    "S": {
-      "item": "minecraft:acacia_sign"
-    },
-    "W": {
-      "item": "minecraft:stripped_acacia_log"
+  "conditions": [
+    {
+      "type": "forge:false"
     }
-  },
-  "result": {
-    "count": 0,    "item": "playershops:acacia_player_shop"
-  }
+  ]
 }

@@ -1,22 +1,7 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " G ",
-    "WSW",
-    "WWW"
-  ],
-  "key": {
-    "G": {
-      "tag": "forge:glass"
-    },
-    "S": {
-      "item": "minecraft:mangrove_sign"
-    },
-    "W": {
-      "item": "minecraft:stripped_mangrove_log"
+  "conditions": [
+    {
+      "type": "forge:false"
     }
-  },
-  "result": {
-    "count": 0,    "item": "playershops:mangrove_player_shop"
-  }
+  ]
 }

@@ -143,6 +143,17 @@ def write_recipe (wood : str, path : str, wood_source : str) :
     recipe_file = open (path + "recipes\\crafting\\wood\\player_shops\\" + wood + ".json", "wt")
 
     recipe_file.write ("{\n")
+
+    # For non-TFC wood types, the recipe is only loaded if the respective addon is loaded
+    if wood_source != "tfc" :
+
+      recipe_file.write ("\"conditions\": [\n")
+      recipe_file.write ("  {\n")
+      recipe_file.write ("    \"type\": \"forge:mod_loaded\",\n")
+      recipe_file.write ("    \"modid\": \"%s\"\n" % wood_source)
+      recipe_file.write ("  }\n")
+      recipe_file.write ("],\n")
+
     recipe_file.write ("  \"type\": \"minecraft:crafting_shaped\",\n")
     recipe_file.write ("  \"pattern\": [\n")
     recipe_file.write ("    \" G \",\n")

@@ -1,22 +1,7 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " G ",
-    "WSW",
-    "WWW"
-  ],
-  "key": {
-    "G": {
-      "tag": "forge:glass"
-    },
-    "S": {
-      "item": "minecraft:bamboo_sign"
-    },
-    "W": {
-      "item": "minecraft:stripped_bamboo_log"
+  "conditions": [
+    {
+      "type": "forge:false"
     }
-  },
-  "result": {
-    "count": 0,    "item": "playershops:bamboo_player_shop"
-  }
+  ]
 }
