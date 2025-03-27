@@ -3,25 +3,5 @@
     {
       "type": "forge:false"
     }
-  ],
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " G ",
-    "WSW",
-    "WWW"
-  ],
-  "key": {
-    "G": {
-      "tag": "forge:glass"
-    },
-    "S": {
-      "item": "minecraft:birch_sign"
-    },
-    "W": {
-      "item": "minecraft:stripped_birch_log"
-    }
-  },
-  "result": {
-    "count": 0,    "item": "playershops:birch_player_shop"
-  }
+  ]
 }
